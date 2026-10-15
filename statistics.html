@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raising awareness about UN Sustainable Development Goal 8: Decent Work and Economic Growth.">
+  <title>Statistics | SDG 8 Decent Work and Economic Growth</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>SDG 8: Decent Work and Economic Growth</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="statistics.html" class="current">Statistics</a></li>
+        <li><a href="actions.html">Take Action</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button type="button" id="theme-toggle">Dark Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Goal 8 by the numbers</h2>
+      <p>Use the buttons to filter the facts by topic. Figures are from the UN SDG 8 progress report.</p>
+      <div class="filters">
+        <button type="button" class="filter-btn active" data-filter="all">All</button>
+        <button type="button" class="filter-btn" data-filter="jobs">Jobs</button>
+        <button type="button" class="filter-btn" data-filter="growth">Growth</button>
+        <button type="button" class="filter-btn" data-filter="finance">Finance</button>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card stat" data-category="jobs">
+        <h3>4.9%</h3>
+        <p>Global unemployment rate in 2025, close to a record low.</p>
+      </article>
+      <article class="card stat" data-category="jobs">
+        <h3>57.9%</h3>
+        <p>Share of workers in informal employment in 2025, often without social protection.</p>
+      </article>
+      <article class="card stat" data-category="jobs">
+        <h3>20.0%</h3>
+        <p>Young people not in employment, education or training in 2025.</p>
+      </article>
+      <article class="card stat" data-category="jobs">
+        <h3>138 million</h3>
+        <p>Children in child labour in 2024, about 8% of children worldwide.</p>
+      </article>
+      <article class="card stat" data-category="growth">
+        <h3>1.9%</h3>
+        <p>Expected yearly growth of global real GDP per capita, according to UN estimates.</p>
+      </article>
+      <article class="card stat" data-category="growth">
+        <h3>3.5%</h3>
+        <p>Tourism's direct share of global GDP in 2024.</p>
+      </article>
+      <article class="card stat" data-category="finance">
+        <h3>79%</h3>
+        <p>Adults with a bank or mobile money account in 2024, up from 74% in 2021.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>UN infographic</h2>
+      <img src="https://sdgs.un.org/sites/default/files/2026-07/_UN_SDG_Goal-Level_Social_Media_Cards_UNSD_rev_Goal_8.png" alt="United Nations infographic showing key facts and progress on Goal 8">
+      <p>Image: United Nations</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Jayden Francis. All rights reserved.</p>
+    <p>Contact: <a href="mailto:jaydenjfrancis17@gmail.com">jaydenjfrancis17@gmail.com</a></p>
+    <p>Content and images sourced from <a href="https://sdgs.un.org/goals/goal8">the United Nations SDG 8 page</a>.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
